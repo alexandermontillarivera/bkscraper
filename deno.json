@@ -1,0 +1,6 @@
+{
+  "importMap": "dpm_imports.json",
+  "compilerOptions": {
+    "noImplicitAny": false
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "Scrapper backend",
+  "author": "Alexander Montilla Rivera",
+  "license": "MIT",
+  "main": "src/main.ts",
+  "scripts": {
+    "build_in": {
+      "test": "test",
+      "fmt": "format",
+      "lint": "lint"
+    },
+    "importMap": "dpm_imports.json",
+    "dev": "deno run --watch --allow-net --allow-write --allow-read --allow-env src/app.ts",
+    "prod": "deno run --allow-net --allow-write --allow-read src/app.ts"
+  },
+  "dependencies": {
+    "opine": "2.2.0",
+    "cheerio": "1.0.6",
+    "nextlog": "v0.2.0",
+    "axiod": "0.26.1",
+    "dotenv": "v3.2.0",
+    "organ": "1.1.1",
+    "casualdb": "v0.1.4",
+    "std": "0.148.0",
+    "dirname": "1.1.2",
+    "cors": "v1.2.2",
+    "simple_cors": "0.0.1",
+    "simplecors": "v1.1.0"
+  },
+  "config": {
+    "importMap": {
+      "directory": false
+    }
+  }
+}

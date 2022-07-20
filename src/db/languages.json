@@ -1,0 +1,68 @@
+{
+  "languages": [
+    {
+      "lang": "es",
+      "dataLang": {
+        "home": {
+          "title": "Herramientas para optimización de motores de búsqueda y el estándar de open graph en las redes sociales.",
+          "message": "Comienza a posicionarte en los motores de búsqueda con una buena metadata y mejorar la interactividad en las redes sociales con tus enlaces.",
+          "featuresTitle": "Características de la herramienta.",
+          "features": [
+            {
+              "icon": "fa-brands fa-searchengin",
+              "title": "Motores de búsqueda",
+              "description": "Mira la información que mandas a los motores de búsqueda y que se indexa para obtener mejores resultados del lado de los usuarios."
+            },
+            {
+              "icon": "fa-solid fa-hashtag",
+              "title": "Vista previa de redes sociales",
+              "description": "Como se renderiza un enlace determinado en las redes sociales para una mejor interacción con el usuario."
+            }
+          ]
+        },
+        "openGraph": {
+          "title": "El estándar de Open Graph para las redes sociales y su enriquecimiento de las urls.",
+          "message": {
+            "content": "El protocolo Open Graph permite que cualquier página web se convierta en un objeto enriquecido en un gráfico social. Por ejemplo, esto se utiliza en Facebook para permitir que cualquier página web tenga la misma funcionalidad que cualquier otro objeto en Facebook. <br /><br /> Si bien existen muchas tecnologías y esquemas diferentes y podrían combinarse, no existe una sola tecnología que proporcione suficiente información para representar ricamente cualquier página web dentro del gráfico social. El protocolo Open Graph se basa en estas tecnologías existentes y ofrece a los desarrolladores una cosa para implementar. La simplicidad del desarrollador es un objetivo clave del protocolo Open Graph que ha informado muchas de las decisiones técnicas de diseño.",
+            "reference": {
+              "title": "Referencia de ogp.me",
+              "url": "https://ogp.me/"
+            }
+          }
+        }
+      }
+    },
+    {
+      "lang": "en",
+      "dataLang": {
+        "home": {
+          "title": "Tools to optimize search engines and the open graphic standard in social networks.",
+          "message": "Start to position yourself in search engines with good metadata and improve interactivity on social networks with your links.",
+          "featuresTitle": "Tools features.",
+          "features": [
+            {
+              "icon": "fa-brands fa-searchengin",
+              "title": "Search engines",
+              "description": "Look at the information you submit to search engines and get indexed for better results on the users side."
+            },
+            {
+              "icon": "fa-solid fa-hashtag",
+              "title": "Social media preview",
+              "description": "How a certain link is rendered in social networks for better interaction with the user."
+            }
+          ]
+        },
+        "openGraph": {
+          "title": "The Open Graph standard for social networks and its URL enrichment.",
+          "message": {
+            "content": "The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook. <br /><br />While many different technologies and schemas exist and could be combined together, there isn't a single technology which provides enough information to richly represent any web page within the social graph. The Open Graph protocol builds on these existing technologies and gives developers one thing to implement. Developer simplicity is a key goal of the Open Graph protocol which has informed many of the technical design decisions.",
+            "reference": {
+              "title": "References of ogp.me",
+              "url": "https://ogp.me/"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
