@@ -14,9 +14,9 @@
               "description": "Mira la información que mandas a los motores de búsqueda y que se indexa para obtener mejores resultados del lado de los usuarios."
             },
             {
-              "icon": "fa-solid fa-hashtag",
-              "title": "Vista previa de redes sociales",
-              "description": "Como se renderiza un enlace determinado en las redes sociales para una mejor interacción con el usuario."
+              "icon": "fa-solid fa-server",
+              "title": "API abierta para desarrolladores",
+              "description": "API abierta con toda la meta información de cara a los buscadores con una simple URL y con que tipo de etiquetas meta utilizas como parámetro."
             }
           ]
         },
@@ -28,6 +28,29 @@
               "title": "Referencia de ogp.me",
               "url": "https://ogp.me/"
             }
+          },
+          "places": {
+            "label": "Selecciona tu atributo meta Open Graph",
+            "input": {
+              "place": "Inserta tu url",
+              "label": "Url del sitio"
+            },
+            "options": {
+              "place": "¿Qué atributo usas en la etiqueta meta...?",
+              "data": [
+                {
+                  "place": "Property",
+                  "value": "property"
+                },
+                {
+                  "place": "Name",
+                  "value": "name"
+                }
+              ]
+            },
+            
+            "send": "Enviar",
+            "listTitle": "¿Qué devuelve la API?"
           }
         }
       }
@@ -46,9 +69,9 @@
               "description": "Look at the information you submit to search engines and get indexed for better results on the users side."
             },
             {
-              "icon": "fa-solid fa-hashtag",
-              "title": "Social media preview",
-              "description": "How a certain link is rendered in social networks for better interaction with the user."
+              "icon": "fa-solid fa-server",
+              "title": "Open API for developers",
+              "description": "Open API with all the meta information for search engines with a simple URL and what kind of meta tags you use as parameters."
             }
           ]
         },
@@ -60,6 +83,28 @@
               "title": "References of ogp.me",
               "url": "https://ogp.me/"
             }
+          },
+          "places": {
+            "label": "Select your Open Graph meta attribute",
+            "input": {
+              "place": "Insert your url",
+              "label": "Site url"
+            },
+            "options": {
+              "place": "What attribute do you use in the meta tag...?",
+              "data": [
+                {
+                  "place": "Property",
+                  "value": "property"
+                },
+                {
+                  "place": "Name",
+                  "value": "name"
+                }
+              ]
+            },
+            "send": "Send",
+            "listTitle": "What does the API return?"
           }
         }
       }

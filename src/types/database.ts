@@ -20,6 +20,19 @@ export interface Schema {
             title: string,
             url: string
           }
+        },
+        places: {
+          label: string
+          input: {
+            place: string
+            label: string
+          }
+          options: {
+            place: string,
+            data: Array<{place: string, value: string}>
+          }
+          send: string
+          listTitle: string
         }
       }
     }
