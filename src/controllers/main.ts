@@ -6,7 +6,7 @@ import { Selector } from 'cheerio/types.ts'
 import * as types from '../types/dataScrapping.ts'
 
 export const getMetaInfo = async (req = request, res = response) => {
-  const url: string = req.body.url
+  const url: string = req.body.siteUrl
   try {
     if(url){
       await axios.get(url)

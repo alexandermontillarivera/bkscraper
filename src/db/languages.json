@@ -1,112 +1,195 @@
 {
-  "languages": [
+  "home": [
     {
       "lang": "es",
-      "dataLang": {
-        "home": {
-          "title": "Herramientas para optimización de motores de búsqueda y el estándar de open graph en las redes sociales.",
-          "message": "Comienza a posicionarte en los motores de búsqueda con una buena metadata y mejorar la interactividad en las redes sociales con tus enlaces.",
-          "featuresTitle": "Características de la herramienta.",
-          "features": [
+      "title": "Herramientas para optimización de motores de búsqueda y el estándar de open graph en las redes sociales.",
+      "message": "Comienza a posicionarte en los motores de búsqueda con una buena metadata y mejorar la interactividad en las redes sociales con tus enlaces.",
+      "featuresTitle": "Características de la herramienta.",
+      "features": [
+        {
+          "icon": "fa-brands fa-searchengin",
+          "title": "Motores de búsqueda",
+          "description": "Mira la información que mandas a los motores de búsqueda y que se indexa para obtener mejores resultados del lado de los usuarios."
+        },
+        {
+          "icon": "fa-solid fa-server",
+          "title": "API abierta para desarrolladores",
+          "description": "API abierta con toda la meta información de cara a los buscadores con una simple URL y con que tipo de etiquetas meta utilizas como parámetro."
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "title": "Tools to optimize search engines and the open graphic standard in social networks.",
+      "message": "Start to position yourself in search engines with good metadata and improve interactivity on social networks with your links.",
+      "featuresTitle": "Tools features.",
+      "features": [
+        {
+          "icon": "fa-brands fa-searchengin",
+          "title": "Search engines",
+          "description": "Look at the information you submit to search engines and get indexed for better results on the users side."
+        },
+        {
+          "icon": "fa-solid fa-server",
+          "title": "Open API for developers",
+          "description": "Open API with all the meta information for search engines with a simple URL and what kind of meta tags you use as parameters."
+        }
+      ]
+    }
+  ],
+  "openGraph": [
+    {
+      "lang": "es",
+      "title": "El estándar de Open Graph para las redes sociales y su enriquecimiento de las urls.",
+      "message": {
+        "content": "El protocolo Open Graph permite que cualquier página web se convierta en un objeto enriquecido en un gráfico social. Por ejemplo, esto se utiliza en Facebook para permitir que cualquier página web tenga la misma funcionalidad que cualquier otro objeto en Facebook. <br /><br /> Si bien existen muchas tecnologías y esquemas diferentes y podrían combinarse, no existe una sola tecnología que proporcione suficiente información para representar ricamente cualquier página web dentro del gráfico social. El protocolo Open Graph se basa en estas tecnologías existentes y ofrece a los desarrolladores una cosa para implementar. La simplicidad del desarrollador es un objetivo clave del protocolo Open Graph que ha informado muchas de las decisiones técnicas de diseño.",
+        "reference": {
+          "title": "Referencia de ogp.me",
+          "url": "https://ogp.me/"
+        }
+      },
+      "places": {
+        "label": "Selecciona tu atributo meta Open Graph",
+        "input": {
+          "place": "Inserta tu url",
+          "label": "Url del sitio"
+        },
+        "options": {
+          "place": "¿Qué atributo usas en la etiqueta meta...?",
+          "data": [
             {
-              "icon": "fa-brands fa-searchengin",
-              "title": "Motores de búsqueda",
-              "description": "Mira la información que mandas a los motores de búsqueda y que se indexa para obtener mejores resultados del lado de los usuarios."
+              "place": "Property",
+              "value": "property"
             },
             {
-              "icon": "fa-solid fa-server",
-              "title": "API abierta para desarrolladores",
-              "description": "API abierta con toda la meta información de cara a los buscadores con una simple URL y con que tipo de etiquetas meta utilizas como parámetro."
+              "place": "Name",
+              "value": "name"
             }
           ]
         },
-        "openGraph": {
-          "title": "El estándar de Open Graph para las redes sociales y su enriquecimiento de las urls.",
-          "message": {
-            "content": "El protocolo Open Graph permite que cualquier página web se convierta en un objeto enriquecido en un gráfico social. Por ejemplo, esto se utiliza en Facebook para permitir que cualquier página web tenga la misma funcionalidad que cualquier otro objeto en Facebook. <br /><br /> Si bien existen muchas tecnologías y esquemas diferentes y podrían combinarse, no existe una sola tecnología que proporcione suficiente información para representar ricamente cualquier página web dentro del gráfico social. El protocolo Open Graph se basa en estas tecnologías existentes y ofrece a los desarrolladores una cosa para implementar. La simplicidad del desarrollador es un objetivo clave del protocolo Open Graph que ha informado muchas de las decisiones técnicas de diseño.",
-            "reference": {
-              "title": "Referencia de ogp.me",
-              "url": "https://ogp.me/"
-            }
-          },
-          "places": {
-            "label": "Selecciona tu atributo meta Open Graph",
-            "input": {
-              "place": "Inserta tu url",
-              "label": "Url del sitio"
-            },
-            "options": {
-              "place": "¿Qué atributo usas en la etiqueta meta...?",
-              "data": [
-                {
-                  "place": "Property",
-                  "value": "property"
-                },
-                {
-                  "place": "Name",
-                  "value": "name"
-                }
-              ]
-            },
-            
-            "send": "Enviar",
-            "listTitle": "¿Qué devuelve la API?"
-          }
-        }
+        "table": {
+          "title": "Resultado",
+          "property": "Propiedad",
+          "content": "Valor"
+        },
+        "send": "Enviar",
+        "listTitle": "¿Qué devuelve la API?"
       }
     },
     {
       "lang": "en",
-      "dataLang": {
-        "home": {
-          "title": "Tools to optimize search engines and the open graphic standard in social networks.",
-          "message": "Start to position yourself in search engines with good metadata and improve interactivity on social networks with your links.",
-          "featuresTitle": "Tools features.",
-          "features": [
+      "title": "The Open Graph standard for social networks and its URL enrichment.",
+      "message": {
+        "content": "The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook. <br /><br />While many different technologies and schemas exist and could be combined together, there isn't a single technology which provides enough information to richly represent any web page within the social graph. The Open Graph protocol builds on these existing technologies and gives developers one thing to implement. Developer simplicity is a key goal of the Open Graph protocol which has informed many of the technical design decisions.",
+        "reference": {
+          "title": "References of ogp.me",
+          "url": "https://ogp.me/"
+        }
+      },
+      "places": {
+        "label": "Select your Open Graph meta attribute",
+        "input": {
+          "place": "Insert your url",
+          "label": "Site url"
+        },
+        "options": {
+          "place": "What attribute do you use in the meta tag...?",
+          "data": [
             {
-              "icon": "fa-brands fa-searchengin",
-              "title": "Search engines",
-              "description": "Look at the information you submit to search engines and get indexed for better results on the users side."
+              "place": "Property",
+              "value": "property"
             },
             {
-              "icon": "fa-solid fa-server",
-              "title": "Open API for developers",
-              "description": "Open API with all the meta information for search engines with a simple URL and what kind of meta tags you use as parameters."
+              "place": "Name",
+              "value": "name"
             }
           ]
         },
-        "openGraph": {
-          "title": "The Open Graph standard for social networks and its URL enrichment.",
-          "message": {
-            "content": "The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook. <br /><br />While many different technologies and schemas exist and could be combined together, there isn't a single technology which provides enough information to richly represent any web page within the social graph. The Open Graph protocol builds on these existing technologies and gives developers one thing to implement. Developer simplicity is a key goal of the Open Graph protocol which has informed many of the technical design decisions.",
-            "reference": {
-              "title": "References of ogp.me",
-              "url": "https://ogp.me/"
-            }
-          },
-          "places": {
-            "label": "Select your Open Graph meta attribute",
-            "input": {
-              "place": "Insert your url",
-              "label": "Site url"
-            },
-            "options": {
-              "place": "What attribute do you use in the meta tag...?",
-              "data": [
-                {
-                  "place": "Property",
-                  "value": "property"
-                },
-                {
-                  "place": "Name",
-                  "value": "name"
-                }
-              ]
-            },
-            "send": "Send",
-            "listTitle": "What does the API return?"
-          }
-        }
+        "table": {
+          "title": "Result",
+          "property": "Property",
+          "content": "Value"
+        },
+        "send": "Send",
+        "listTitle": "What does the API return?"
+      }
+    }
+  ],
+  "metadata": [
+    {
+      "lang": "es",
+      "title": "Observe qué metadatos están siendo indexados por motores de búsqueda como: Google, Bing, DuckDuckGo, etc.",
+      "description": "Las metaetiquetas son fragmentos de texto que describen el contenido de una página; las metaetiquetas no aparecen en la página en sí, sino solo en el código fuente de la página. Las metaetiquetas son esencialmente pequeños descriptores de contenido que ayudan a decirle a los motores de búsqueda de qué se trata una página web.<br /><br />La única diferencia entre las etiquetas que puede ver (en una publicación de blog, por ejemplo) y las etiquetas que no puede ver es la ubicación: las metaetiquetas solo existen en HTML, generalmente en la <b>cabeza</b> de la página, por lo que solo son visibles para los motores de búsqueda (y las personas que saben dónde buscar). El <b>meta</b> significa <b>metadatos</b>, que es el tipo de datos que proporcionan estas etiquetas: datos sobre los datos de su página.",
+      "reference": {
+        "url": "https://www.wordstream.com/meta-tags#:~:text=Meta%20Keywords%20Attribute%20%E2%80%93%20A%20series,brief%20description%20of%20the%20page.",
+        "title": "Referencia de wordstream.com"
+      },
+      "table": {
+        "title": "Resultado",
+        "property": "Propiedad",
+        "content": "Valor"
+      },
+      "places": {
+        "label": "Selecciona tu atributo meta Open Graph",
+        "input": {
+          "place": "Inserta tu url",
+          "label": "Url del sitio"
+        },
+        "send": "Enviar"
+      }
+    },
+    {
+      "lang": "en",
+      "title": "Find out what metadata is being indexed by search engines such as: Google, Bing, DuckDuckGo, etc.",
+      "description": "Meta tags are snippets of text that describe a page’s content; the meta tags don’t appear on the page itself, but only in the page’s source code. Meta tags are essentially little content descriptors that help tell search engines what a web page is about.<br /><br />The only difference between tags you can see (on a blogpost, say) and tags you can’t see is location: meta tags only exist in HTML, usually at the “head” of the page, and so are only visible to search engines (and people who know where to look). The “meta” stands for “metadata,” which is the kind of data these tags provide – data about the data on your page.",
+      "reference": {
+        "url": "https://www.wordstream.com/meta-tags#:~:text=Meta%20Keywords%20Attribute%20%E2%80%93%20A%20series,brief%20description%20of%20the%20page.",
+        "title": "References of wordstream.com"
+      },
+      "table": {
+        "title": "Result",
+        "property": "Property",
+        "content": "Value"
+      },
+      "places": {
+        "label": "Select your Open Graph meta attribute",
+        "input": {
+          "place": "Insert your url",
+          "label": "Site url"
+        },
+        "send": "Send"
+      }
+    }
+  ],
+  "documentation": [
+    {
+      "lang": "es",
+      "title": "Descripción del proyecto y API para desarrolladores.",
+      "description": "Este es un proyecto realizado en deno, con TypeScript y cheerio para buscar los datos a través de las URL pasadas por el formulario utilizando la API nativa del navegador y AJAX. Este cuenta con una API abierta para traer los datos de un sitio web de forma sencilla y con un rendimiento muy alto, debido a la eficiencia del servicio de deno deploy.",
+      "metadata": {
+        "title": "Obtener los metadatos para los motores de búsqueda de un sitio web.",
+        "description": "Cuando creamos nuestros sitios web y pasamos al proceso de subir a un servidor en producción abierto al público, necesitamos formas de que encuentren nuestro sitio antes que la competencia y la forma de hacerlo es con los metadatos web, por lo tanto, como desarrolladores debemos agregar las etiquetas meta a nuestra cabeza del documento, de esta manera las arañas de los buscadores podrán detectar las palabras claves y otros elementos que ayudaran al posicionamiento.",
+        "codeDescription": "Puedes usar la API del navegador para consumir la API, pero recomiendo usar AJAX para mejor interactividad con el usuario. Esta retornará 3 elementos: <b>title, description y keywords</b>. Yo para este sitio web guardo los datos en el sessionStorage, pero puedes utilizar otros métodos para guardar la información. Con el siguiente código podrás solicitar estos datos con JavaScript, pero puedes investigar en tu lenguaje de programación de preferencia."
+      },
+      "opengraph": {
+        "title": "Obtener los metadatos para mejorar la interactividad a través de las redes sociales.",
+        "description": "Al compartir enlaces de nuestros sitios web, las redes sociales crean un pequeño iframe para mostrar el contenido de un sitio web de forma corta y concisa, de forma que al usuario le dé una pequeña idea de que va a tratar el contenido, por lo que es necesario mejorar al máximo ese contenido mediante metadatos que ponemos en la cabeza de nuestro documento HTML al igual que los metadatos para los motores de búsqueda. Esto aumenta las posibilidades de un clic en el enlace.",
+        "codeDescription": "El código para obtener los datos es prácticamente igual que el anterior, pero en los parámetros del cuerpo de la petición cambiaran algunos datos que se requieren. Como valor por defecto en el <b>type</b> es <b>name</b>, pero puede ser cambiado por <b>property</b>. Este endpoint puede retornar un arreglo de los siguientes items: <b>['og:type','og:title', 'og:description', 'og:image', 'og:url', 'og:image:width', 'og:image:height', 'og:locale', 'og:locale', 'twitter:text:title', 'twitter:image', 'twitter:card', 'twitter:site', 'twitter:creator']</b>. Todo esto depende de que si existe o no en le head del documento."
+      }
+    },
+    {
+      "lang": "en",
+      "title": "Project description and API for developers.",
+      "description": "This is a project made in deno, with typescript and cheerio to search the data through the urls passed by the form using the browser's native API and AJAX. This has an open API to fetch data from a website in a simple way and with very high performance, due to the efficiency of the deno deploy service.",
+      "metadata": {
+        "title": "Get search engine metadata from a website.",
+        "description": "When we build our websites and go through the process of uploading them to a production server open to the public, we need ways for them to find our site before the competition and the way to do that is with web metadata, so as developers we need to add the meta tags to our document head, in this way the search engine spiders will be able to detect the keywords and other elements that will help the positioning.",
+        "codeDescription": "You can use the browser API to consume the API, but I recommend using AJAX for better interactivity with the user. This will return 3 elements: <b>title, description and keywords</b>. For this website I save the data in the sessionStorage, but you can use other methods to save the information. With the following code you will be able to request this data with JavaScript, but you can investigate in your preferred programming language."
+      },
+      "opengraph": {
+        "title": "Obtain metadata to improve interactivity through social networks.",
+        "description": "When sharing links to our websites, social networks create a small iframe to display the content of a website in a short and concise way, so that the user has a small idea of ​​what the content is going to deal with, so It is necessary to improve that content as much as possible through metadata that we put in the head of our HTML document, just like the metadata for search engines. This increases the chances of a click on the link.",
+        "codeDescription": "The code to obtain the data is practically the same as the previous one, but some data that is required will change in the parameters of the request body. The default value in the <b>type</b> is <b>name</b>, but it can be changed by <b>property</b>. This endpoint can return an array of the following items: <b>['og:type','og:title', 'og:description', 'og:image', 'og:url', 'og:image: width', 'og:image:height', 'og:locale', 'og:locale', 'twitter:text:title', 'twitter:image', 'twitter:card', 'twitter:site', ' twitter:creator']</b>. All this depends on whether or not it exists in the head of the document."
       }
     }
   ]
